@@ -21,7 +21,8 @@ decisions made.
 ### Comparison of ISCO vs O*Net-SOC
 The development of OccO was facilitated by using one of the existing "controlled vocabularies" as its starting reference.  These standards are not ontologically derived, and the hope is that a more ontology-oriented classification of occupations can be accomplished from this OccO development.
 ### Rationale for OccO use of O*Net-SOC
-
+   OLIVER***  From Pam Frugoli at US DOL / BLS / SOC / O*Net:   
+   The U.S. does use the ISCO as one input in development of the SOC.  I think the alignment is fairly close at the more aggregate levels of the hierarchy.  My understanding is that ISCO is designed to be able to collect data from all the nations of the world—and as a result isn’t as detailed in certain areas that may be more important in the economies of the so-called developed nations, but that aren’t significant portions of the economy of other so-called developing nations.  However, it has the advantage of worldwide applicability.  Also for certain types of analysis a more aggregated system, such as ISCO might actually be easier to use, as there are 923 O*NET 2019 occupations.  
 ### Steps for Converting SOC to OccO
 
 ### Folder: ONet-SOC Reference Files

@@ -1,9 +1,9 @@
 # This is the template for setting up the Ontorat input conditions. 
 # Any text after # is just for notes and won't be used by Ontorat.
+## Input for:  O*Net-SOC Minor Groups  File: ***
 ## 2022-02-15 SMS Including comments for this version of input file
 ## problems as of 2/15 pm - prior to Oliver conference: 
-##  have to manually set OWL (clear it our rather than reference occoRoot.owl - cannot download)
-##  Override URL of input file from github, just use the local file
+##   Recall problem with forumulas eg VLOOKUP() in input - need to save values!
 
 [Online URL of the target OWL file (RDF/XML format)]
 # Note: Local file won't be used by Ontorat for security reason.
@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/Occupation-Ontology/OccO_dev/master/occoRoot.o
 [Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
 # Note: Local file won't be used by Ontorat for security reason. 
 # http://ontorat.hegroup.org/examples/eg1_data_file.xlsx
-https://raw.githubusercontent.com/Occupation-Ontology/OccO_Dev/main/src/ontology/occoRoot.owl
+## this is not right: https://raw.githubusercontent.com/Occupation-Ontology/OccO_Dev/main/src/ontology/occoRoot.owl
 
 Actual data starts from row: 2
 

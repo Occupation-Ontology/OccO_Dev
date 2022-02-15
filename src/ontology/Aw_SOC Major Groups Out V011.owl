@@ -1,0 +1,257 @@
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/" xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl">
+<owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+<!--  
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+      -->
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+<owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+<owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+<!--  
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+      -->
+<!--  http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral  -->
+<rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+<!--  http://www.w3.org/2000/01/rdf-schema#Literal  -->
+<rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+<!--  http://www.w3.org/2001/XMLSchema#float  -->
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+<!--  http://www.w3.org/2001/XMLSchema#integer  -->
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+<!--  http://www.w3.org/2001/XMLSchema#nonNegativeInteger  -->
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+<!--  http://www.w3.org/2001/XMLSchema#string  -->
+<rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+<!--  
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+      -->
+<!--  http://purl.obolibrary.org/obo/OccO_00000001  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<!--  http://purl.obolibrary.org/obo/OccO_11000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_11000000">
+<rdfs:label>management occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000118>Management Occupations</obo:IAO_0000118>
+<obo:IAO_0000111>11-0000</obo:IAO_0000111>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_13000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_13000000">
+<rdfs:label>business or financial operations occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>13-0000</obo:IAO_0000111>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000118>Business and Financial Operations Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_15000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_15000000">
+<rdfs:label>computer or mathematical occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>15-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Computer and Mathematical Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_17000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_17000000">
+<rdfs:label>architecture or engineering occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000118>Architecture and Engineering Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000111>17-0000</obo:IAO_0000111>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_19000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_19000000">
+<rdfs:label>life, physical, or social science occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000118>Life, Physical, and Social Science Occupations</obo:IAO_0000118>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>19-0000</obo:IAO_0000111>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_21000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_21000000">
+<rdfs:label>community or social service occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000111>21-0000</obo:IAO_0000111>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000118>Community and Social Service Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_23000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_23000000">
+<rdfs:label>legal occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000111>23-0000</obo:IAO_0000111>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000118>Legal Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_25000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_25000000">
+<rdfs:label>educational instruction or library occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000111>25-0000</obo:IAO_0000111>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000118>Educational Instruction and Library Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_27000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_27000000">
+<rdfs:label>arts, design, entertainment, sports, and media occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>27-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Arts, Design, Entertainment, Sports, and Media Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_29000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_29000000">
+<rdfs:label>healthcare practitioner or technical occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000118>Healthcare Practitioners and Technical Occupations</obo:IAO_0000118>
+<obo:IAO_0000111>29-0000</obo:IAO_0000111>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_31000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_31000000">
+<rdfs:label>healthcare support occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000118>Healthcare Support Occupations</obo:IAO_0000118>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>31-0000</obo:IAO_0000111>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_33000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_33000000">
+<rdfs:label>protective service occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000118>Protective Service Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>33-0000</obo:IAO_0000111>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_35000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_35000000">
+<rdfs:label>food preparation or serving related occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000111>35-0000</obo:IAO_0000111>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000118>Food Preparation and Serving Related Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_37000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_37000000">
+<rdfs:label>building and grounds cleaning or maintenance occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000111>37-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Building and Grounds Cleaning and Maintenance Occupations</obo:IAO_0000118>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_39000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_39000000">
+<rdfs:label>personal care or service occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000111>39-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Personal Care and Service Occupations</obo:IAO_0000118>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_41000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_41000000">
+<rdfs:label>sales or related occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000118>Sales and Related Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000111>41-0000</obo:IAO_0000111>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_43000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_43000000">
+<rdfs:label>office or administrative support occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>43-0000</obo:IAO_0000111>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000118>Office and Administrative Support Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_45000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_45000000">
+<rdfs:label>farming, fishing, or forestry occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000111>45-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Farming, Fishing, and Forestry Occupations</obo:IAO_0000118>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_47000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_47000000">
+<rdfs:label>construction or extraction occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>47-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Construction and Extraction Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_49000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_49000000">
+<rdfs:label>installation, maintenance, or repair occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000118>Installation, Maintenance, and Repair Occupations</obo:IAO_0000118>
+<obo:IAO_0000111>49-0000</obo:IAO_0000111>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_51000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_51000000">
+<rdfs:label>production occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>51-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Production Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_53000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_53000000">
+<rdfs:label>transportation and material moving occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+<obo:IAO_0000111>53-0000</obo:IAO_0000111>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000118>Transportation and Material Moving Occupations</obo:IAO_0000118>
+</owl:Class>
+<!--  http://purl.obolibrary.org/obo/OccO_55000000  -->
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/OccO_55000000">
+<rdfs:label>military specific occupation</rdfs:label>
+<rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OccO_00000001"/>
+<obo:IAO_0000111>55-0000</obo:IAO_0000111>
+<obo:IAO_0000118>Military Specific Occupations</obo:IAO_0000118>
+<obo:IAO_0000117>OH, SS, EO</obo:IAO_0000117>
+<obo:IAO_0000119>https://www.bls.gov/soc/</obo:IAO_0000119>
+</owl:Class>
+</rdf:RDF>
+<!--  Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net  -->
