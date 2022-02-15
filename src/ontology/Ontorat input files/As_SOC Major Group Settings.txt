@@ -31,7 +31,7 @@ edit existing classes with term IDs defined in column A
 'label' "{$columnD}",
 'definition editor' "OH, SS, EO",
 'definition source' "https://www.bls.gov/soc/",
-'alternative term' {$columnC}
+# got error: 'alternative term' {$columnC}
 # 'SOD ID' "{$columnC}"
 
 [Equivalent classes]
