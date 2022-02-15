@@ -13,6 +13,24 @@ OccO is co-developed by Sam Smith and Oliver He, at the University of Michigan M
 
 OccO was initially developed as part of the Role Ontology (RoleO) as seen here in BioPortal: https://bioportal.bioontology.org/ontologies/ROLEO. 
 
+## Project Folders
+
+### Project Overview
+Description of this ontology development project, its motivation, contributors and 
+decisions made.
+### Comparison of ISCO vs O*Net-SOC
+The development of OccO was facilitated by using one of the existing "controlled vocabularies" as its starting reference.  These standards are not ontologically derived, and the hope is that a more ontology-oriented classification of occupations can be accomplished from this OccO development.
+### Rationale for OccO use of O*Net-SOC
+
+### Steps for Converting SOC to OccO
+
+### Folder: ONet-SOC Reference Files
+Files in this folder are those directly downloaded from the O*Net Resource Center, saved here as a reference from which all derivative files were created.
+### Folder: ONet-SOC Edited for OccO Files
+The reference files as converted for use in OccO, the conversion steps shown in Steps for Converting SOC to OccO.
+### Folder: ONet-SOC_Ontorat
+Two types of file for each Ontorat run: the Excel .xlsx data input file and the Ontorat Settings .txt file.
+
 ## References:
 
 - Standard Occupational Classification (SOC) System: https://www.bls.gov/soc/ 

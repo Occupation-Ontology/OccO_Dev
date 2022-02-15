@@ -1,0 +1,60 @@
+# This is the template for setting up the Ontorat input conditions. 
+# Any text after # is just for notes and won't be used by Ontorat.
+## 2022-02-15 SMS Including comments for this version of input file
+
+[Online URL of the target OWL file (RDF/XML format)]
+# Note: Local file won't be used by Ontorat for security reason.
+## Major Groups are added to the Root owl file which has only occupation class   
+https://raw.githubusercontent.com/Occupation-Ontology/OccO_dev/master/occoRoot.owl
+
+[Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
+# Note: Local file won't be used by Ontorat for security reason. 
+# http://ontorat.hegroup.org/examples/eg1_data_file.xlsx
+https://raw.githubusercontent.com/Occupation-Ontology/OccO_Dev/main/src/ontology/occoRoot.owl
+
+Actual data starts from row: 2
+
+
+[New axioms will be used to]
+# Note: two options: 1. "generate new classes", 
+# or 2. "edit existing classes with term IDs defined in column A(or another letter)"
+edit existing classes with term IDs defined in column A
+  
+[Annotations]
+# Note: Use comma to separate annotations
+## Col  Heading          element
+##  A   OccO ID          id
+##  B   Parent Id        Superclass
+##  C   O*Net-SOC Id     ID as it is in SOC
+##  D   Label            rdfs:label
+##  E   O*Net-SOC Title  Title from SOC, with caps and "and"
+'label' "{$columnD}",
+'definition editor' "OH, SS, EO",
+'definition source' "https://www.bls.gov/soc/",
+'alternative term' {$columnC}
+# 'SOD ID' "{$columnC}"
+
+[Equivalent classes]
+# Note: Use comma to separate classes 
+
+
+[Superclasses]
+# Note: Use comma to separate classes 
+<http://purl.obolibrary.org/obo/{$columnB}>
+
+[Terms used to define anntoations, equivalent classes and superclasses]
+# Note: One line per term
+AnnotationProperty:
+# 'SOD ID': <http://purl.obolibrary.org/obo/RoleO_0000026>
+Class:
+ObjectProperty:
+DataProperty:
+
+[Term URIs start with]
+# Note: provide a prefix ontology URIs
+http://purl.obolibrary.org/obo/
+
+[Auto-generated term ID]
+# Note: Prefix like "VO_", number of digits like "7", and start from like "1".
+
+
