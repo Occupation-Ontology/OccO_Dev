@@ -1,0 +1,76 @@
+# This is the template for setting up the Ontorat input conditions. 
+# Any text after # is just for notes and won't be used by Ontorat.
+## Input for:  O*Net-SOC Broad Occupations  File: Dx_SOC Detailed Occupations V011.xlsx
+## 2022-02-18 SMS Including comments for this version of input file
+## problems as of 2/15 pm - prior to Oliver conference: 
+##   Recall problem with forumulas eg VLOOKUP() in input - need to save values!
+## Note that Ontorat writes the output file to a URL:  http://ontorat.hegroup.org/userfiles/4zbriszc_out.owl
+
+[Online URL of the target OWL file (RDF/XML format)]
+# Note: Local file won't be used by Ontorat for security reason.
+## Major Groups are added to the Root owl file which has only occupation class   
+# 2/18/22 change from this: https://raw.githubusercontent.com/Occupation-Ontology/OccO_dev/master/occoRoot.owl
+https://raw.githubusercontent.com/Occupation-Ontology/OccO_Dev/main/src/ontology/occoRoot.owl
+
+[Online URL of the data file (Only Excel file (.xls, .xlsx) or tab-delimited text file (.txt)]
+# Note: Local file won't be used by Ontorat for security reason. 
+# http://ontorat.hegroup.org/examples/eg1_data_file.xlsx
+## this is not right: https://raw.githubusercontent.com/Occupation-Ontology/OccO_Dev/main/src/ontology/occoRoot.owl
+# 1/18/22 enter into Ontorat: C:\Users\samal\Documents\GitHub\OccO_Dev\src\ontology\Ontorat input files\Dx_SOC Detailed Occupations V011.xlsx
+# Descriptions are in the workbook; not yet added to OWL
+
+Actual data starts from row: 2
+
+
+[New axioms will be used to]
+# Note: two options: 1. "generate new classes", 
+# or 2. "edit existing classes with term IDs defined in column A(or another letter)"
+edit existing classes with term IDs defined in column A
+  
+[Annotations]
+# Note: Use comma to separate annotations
+## Col  Heading          element
+##  A   OccO ID          id
+##  B   Parent Id        Superclass
+##  C   O*Net-SOC Id     ID as it is in SOC
+##  D   Label            rdfs:label
+##  E   O*Net-SOC Title  Title from SOC, with caps and "and"
+##  F   Description      Definition (IAO_0000115)
+'editor preferred term' "{$columnC}",
+'label' "{$columnD}",
+'definition editor' "OH, SS, EO",
+'definition source' "https://www.bls.gov/soc/",
+'alternative term' "{$columnE}",
+'definition' "{$columnF}"
+# got error: 'alternative term' {$columnC}
+# 'SOD ID' "{$columnC}"
+
+[Equivalent classes]
+# Note: Use comma to separate classes 
+
+
+[Superclasses]
+# Note: Use comma to separate classes 
+<http://purl.obolibrary.org/obo/{$columnB}>
+
+[Terms used to define anntoations, equivalent classes and superclasses]
+# Note: One line per term
+AnnotationProperty:
+'editor preferred term': <http://purl.obolibrary.org/obo/IAO_0000111>
+'alternative term': <http://purl.obolibrary.org/obo/IAO_0000118>
+'definition': <http://purl.obolibrary.org/obo/IAO_0000115>
+# 'SOD ID': <http://purl.obolibrary.org/obo/RoleO_0000026>
+Class:
+ObjectProperty:
+DataProperty:
+
+[Term URIs start with]
+# Note: provide a prefix ontology URIs
+http://purl.obolibrary.org/obo/
+
+[Auto-generated term ID]
+# Note: Prefix like "VO_", number of digits like "7", and start from like "1".
+Prefix: OccO_
+Number of digits: 8
+Start from:  1
+## note that with option "edit existing classes" this is not used (but input must be present):

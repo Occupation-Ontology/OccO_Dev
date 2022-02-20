@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:chromosome-parts="http://purl.obolibrary.org/obo/test/chromosome-parts#">
-    <owl:Ontology rdf:about="https://github.com/Occupation-Ontology/OccO_Dev">
+    <owl:Ontology rdf:about="https://github.com/Occupation-Ontology/OccO_Dev/root">
         <obo:IAO_0000115>The Occupation Ontology (OccO) is an ontology in the domain of human occupations. OccO standardizes and represented all the occupations defined in the Standard Occupational Classification (SOC) developed by the following US Federal agencies:
 
 Department of Labor
