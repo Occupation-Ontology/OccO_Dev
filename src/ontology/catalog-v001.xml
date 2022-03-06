@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl" uri="http://purl.obolibrary.org/obo/iao.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="http://purl.obolibrary.org/obo/occo/IAO_import.owl" uri="imports/IAO_imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="AwMajorTemp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Bw_SOC%20Minor%20Groups%20Out%20V012.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Cw_SOC%20Broad%20Occupations%20Out%20V012.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="duplicate:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Dw_SOC%20Detailed%20Occupations%20V012.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="http://purl.obolibrary.org/obo/test/chromosome-parts.owl" uri="occoRoot.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="http://www.semanticweb.org/samal/ontologies/2022/1/untitled-ontology-95" uri="tempABCD.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1645636922281" name="https://github.com/Occupation-Ontology/OccO_Dev/occoABCD.owl" uri="occoABCD.owl"/>
+    </group>
+</catalog>
