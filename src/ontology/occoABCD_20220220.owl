@@ -10,49 +10,20 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:chromosome-parts="http://purl.obolibrary.org/obo/test/chromosome-parts#">
     <owl:Ontology rdf:about="https://github.com/Occupation-Ontology/OccO_Dev/occoABCD.owl">
-        <obo:IAO_0000115>The Occupation Ontology (OccO) is an ontology in the domain of human occupations. OccO standardizes and represents all the occupations defined in the Standard Occupational Classification (SOC) developed by the following US Federal agencies:
+        <obo:IAO_0000115>The Occupation Ontology (OccO) is an ontology in the domain of human occupations. OccO standardizes and represented all the occupations defined in the Standard Occupational Classification (SOC) developed by the following US Federal agencies:
 
-* Department of Labor
-* Bureau of Labor Statistics
-* The O*NET Program, the United States&apos; primary source of occupational information.
-
+Department of Labor
+Bureau of Labor Statistics
+The O*NET Program, the United States&apos; primary source of occupational information.
 OccO reflects the data content of the O*Net-SOC 2019 taxonomy, and it is developed by following OBO Foundry principles.
 
-OccO is co-developed by Sam Smith and Oliver He, at the University of Michigan Medical School, Ann Arbor, MI, USA.  For background on the development of this ontology, see https://observablehq.com/collection/@smithgit/life-ontologies.
+OccO is co-developed by Sam Smith and Oliver He, at the University of Michigan Medical School, Ann Arbor, MI, USA.  For background on the development of this ontology, see *link*.
 
 OccO was initially developed as part of the Role Ontology (RoleO) as seen here in BioPortal: https://bioportal.bioontology.org/ontologies/ROLEO.
 
 References:
-* Standard Occupational Classification (SOC) System: https://www.bls.gov/soc/
-* O*Net Resource Center: https://www.onetcenter.org.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">The following changes were made to the SOC terms:
-
-Occupations in OWL are classes, and class names are singular, whereas the SOC uses the plural form, to reflect the individuals involved.  So plural terms were changed to singular and made lower-case, and the &quot;and&quot; conjunction was changed to &quot;or.&quot;  In SOC quite a number of group labels are the same as child labels, so these parent terms were changed to make unique.
-
-The format of SOC occupation ID&apos;s is MM-NNNN.dd, wheret the MM indicates Major Group.  The dd suffix was added for the 149 O*Net additions of new occupations.  
-
-The O*Net - SOC taxonomy https://www.onetcenter.org/taxonomy.html has the following hierarchy:
-Major Groups (23)
-  Minor Groups (98)
-    Broad Occupations (459)
-      Detailed Occupations (867)
-        O*Net Additions (149)
-
-The OccO annotations include the following Information Artifact Ontology (IAO) properties:
-  IAO_0000111  &apos;preferred term&apos; which is the SOC ID unchanged in the format described above.  Note that the OccO ID requires 8 digits to accommodate the two-digit O*Net suffix. 
-  IAO_0000118 &apos;alternative term&apos; is the occupation label as in SOC with capitalization and plural terms.
-
-Revision History
-
-Version 1 - March 2022
-Conversion of the O*Net-SOC taxonomy into an OWL ontological structure, follwing the OBO Foundry principles.
-
-Possible enhancements in future releases:
-Incorporation of Skills, Abilities and Areas of Knowledge:
-Plans to include the O*Net-SOC Skills, Abilities and Knowledge properties to each occupation.  The O*Net-SOC scheme for describing occupations is unique among such classifications by having these additional informative properties, each with a metric for its importance to the occupation, and the level of each that is required for the occupation.  
-
-Reconciliation and Integration with ISOC and Wikidata occupations:
-Comparison and reconciliation with other occupation schemas, in particuar the international ISCO system and the semantic web (primarily Wikidata and also DBPedia).</obo:IAO_0000116>
+Standard Occupational Classification (SOC) System: https://www.bls.gov/soc/
+O*Net Resource Center: https://www.onetcenter.org</obo:IAO_0000115>
     </owl:Ontology>
     
 
@@ -70,9 +41,7 @@ Comparison and reconciliation with other occupation schemas, in particuar the in
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
-        <rdfs:label>editor preferred term</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
     
 
 
@@ -84,9 +53,7 @@ Comparison and reconciliation with other occupation schemas, in particuar the in
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
-        <rdfs:label>has curation status</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
     
 
 
@@ -100,33 +67,25 @@ Comparison and reconciliation with other occupation schemas, in particuar the in
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
-        <rdfs:label>editor note</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
-        <rdfs:label>term editor</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
-        <rdfs:label>definition source</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
 
