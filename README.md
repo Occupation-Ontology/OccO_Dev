@@ -5,7 +5,7 @@ Development Repo for Occupation Ontology (OccO)
 
 ## Definition and Editor Note from OWL File
 
-Definition:
+### Definition: 
 The Occupation Ontology (OccO) is an ontology in the domain of human occupations. OccO standardizes and represents all the occupations defined in the Standard Occupational Classification (SOC) developed by the following US Federal agencies:
 
 * Department of Labor
@@ -23,7 +23,7 @@ References:
 * O*Net Resource Center: https://www.onetcenter.org.
 * Github Repository: github.com/occupation-Ontology/OccO
 
-Editor Note: 
+### Editor Note:  
 The following changes were made to the SOC terms:
 
 Occupations in OWL are classes, and class names are singular, whereas the SOC uses the plural form, to reflect the individuals involved.  So plural terms were changed to singular and made lower-case, and the "and" conjunction was changed to "or."  In SOC quite a number of group labels are the same as child labels, so these parent terms were changed to make unique by adding a suffix to indicate the hierarchy level.  This mainly affected Broad Occupation terms, of which 2** were duplacated in Detailed Occupation, so the broad occupation term has the suffix (broad).  Minor Occupations had 13 duplicates with the suffix (minor), and only one occupation, hunting *** appeared three times as Minor, Broad and Detailed.  A comment was added to indicate the hierarchy level, such as "This occupation in SOC is a Major Group."  This permits extracting all terms at a given hierarch level by using the SPARQL query:
